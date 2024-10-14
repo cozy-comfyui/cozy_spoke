@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*$py.class
+**/_*/*
+*.code-workspace
+.vscode/
+config.json
+ignore.txt
+.env
