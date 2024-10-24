@@ -104,7 +104,7 @@ class CozySpokeNode:
         }
 
     def run(self, ident, DropDownA="", DropDownB="") -> None:
-        comfy_message(ident, EVENT_COZY_UPDATE, {
+        comfy_message(EVENT_COZY_UPDATE, ident, {
             "id": ident,
             "a": DropDownA,
             "b": DropDownB
