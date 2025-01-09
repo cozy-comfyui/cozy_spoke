@@ -1,15 +1,14 @@
 [project]
 name = "cozy_spoke"
-description = "Example node communicating between ComfyUI Javascript and Python. "
+description = "Example node communicating between ComfyUI Javascript and Python."
 version = "1.0.0"
-license = "LICENSE"
+license = { file = "LICENSE" }
 dependencies = []
 
 [project.urls]
 Repository = "https://github.com/cozy-comfyui/cozy_spoke"
-#  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = "cozy_spoke"
-DisplayName = "Cozy Spoke"
+PublisherId = "amorano"
+DisplayName = "cozy_spoke"
 Icon = ""
