@@ -1,14 +1,29 @@
 [project]
 name = "cozy_spoke"
 description = "Example node communicating between ComfyUI Javascript and Python."
-version = "1.0.0"
+version = "1.0.1"
 license = { file = "LICENSE" }
+readme = "README.md"
+authors = [{ name = "Alexander G. Morano", email = "amorano@gmail.com" }]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Intended Audience :: Developers",
+]
+requires-python = ">=3.11"
 dependencies = []
 
 [project.urls]
+Homepage = "https://github.com/cozy-comfyui/cozy_spoke"
+Documentation = "https://github.com/cozy-comfyui/cozy_spoke/wiki"
 Repository = "https://github.com/cozy-comfyui/cozy_spoke"
+Issues = "https://github.com/cozy-comfyui/cozy_spoke/issues"
 
 [tool.comfy]
 PublisherId = "amorano"
-DisplayName = "cozy_spoke"
-Icon = ""
+DisplayName = "Cozy Spoke"
+Icon = "https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/refs/heads/master/res/logo-cozy-comfyui.png"
